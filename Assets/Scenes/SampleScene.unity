@@ -505,6 +505,7 @@ GameObject:
   - component: {fileID: 841327079}
   - component: {fileID: 841327080}
   - component: {fileID: 841327081}
+  - component: {fileID: 841327082}
   m_Layer: 0
   m_Name: Evil Jeff
   m_TagString: Untagged
@@ -696,6 +697,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hearingRange: 10
+--- !u!114 &841327082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841327071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2c141442b06f74887b70ebd816ca51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1835939413}
+  guardForward: {fileID: 0}
+  detectionFOV: 60
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
